@@ -1,2 +1,2 @@
-# odoo18-src-code-app
-Odoo 18 source code based project app.
+# Odoo v18 Source Code App
+Odoo 18 source code-based project app.
