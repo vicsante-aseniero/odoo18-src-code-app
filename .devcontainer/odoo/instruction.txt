@@ -1,0 +1,16 @@
+Run this in the bash terminal.
+
+$ docker cp <path_to_sql_file> <container_name>:/tmp/<file_name>
+$ docker exec -it <container_name> psql -U <username> -d <database_name> -f /tmp/<file_name>
+
+See example below:
+$ docker cp ./.devcontainer/odoo/setup.sql postgres-dev:/tmp/odoo-setup.sql
+$ docker exec -it postgres-dev psql -U postgres -d postgres -f /tmp/odoo-setup.sql
+
+Path to sql file: .devcontainer/odoo/setup.sql
+Container name: postgres-dev
+Username: postgres
+Database name: postgres
+
+After running the devcontainer. Run this for the first time in your bash terminal e.g. WSL Ubuntu where your project resides.
+Verify if its create via pgAdmin4 Windows app.
