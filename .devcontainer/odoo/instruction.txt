@@ -14,3 +14,14 @@ Database name: postgres
 
 After running the devcontainer. Run this for the first time in your bash terminal e.g. WSL Ubuntu where your project resides.
 Verify if its create via pgAdmin4 Windows app.
+
+Check if Postgres Host is running
+=================================
+$ pg_isready -d odoo -h postgres-dev -p 5432 -U odoo_user
+
+Initial run
+$ ./odoo/odoo-bin -i --addons-path=./odoo/addons --database=odoo --db_user=odoo_user --db_password=jajnav5@
+
+Run Odoo Sourcecode
+===================
+$ ./odoo/odoo-bin --addons-path=./odoo/addons --database=odoo --db_user=odoo_user --db_password=jajnav5@
