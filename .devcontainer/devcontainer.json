@@ -28,7 +28,6 @@
 			"version": "latest"
 		},
 		"ghcr.io/robbert229/devcontainer-features/postgresql-client:1": {
-			"version": "13"
 		},
 		"ghcr.io/devcontainers-extra/features/node-asdf:0": {
 			"version": "latest"
@@ -79,7 +78,7 @@
 		"vscode": {
 			"extensions": [
 				"anthropic.claude-code",
-				"amazonwebservices.amazon-q-vscode",
+				"codeium.codeium",
 				"cweijan.vscode-postgresql-client2",
 				"cyrilletuzi.angular-schematics",
 				"dbaeumer.vscode-eslint",
@@ -100,7 +99,6 @@
 				"ms-python.pylint",
 				"ms-python.python",
 				"ms-python.vscode-pylance",
-
 				"ms-vscode-remote.remote-containers",
 				"ms-vscode-remote.vscode-remote-extensionpack",
 				"ms-vscode-remote.remote-wsl"
