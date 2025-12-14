@@ -27,6 +27,7 @@ services:
       - "8071:8071" # Odoo's live chat
     volumes:
       - ../odoo:/usr/lib/python3/dist-packages/odoo # Mount Odoo source code
+      - ../addons:/mnt/odoo/addons # Mount Odoo addons
       - ../extra-addons/openeducat:/mnt/extra-addons # Custom addons
       - ../tutorials:/mnt/tutorials
       - ../config/odoo.conf:/etc/odoo
