@@ -25,12 +25,12 @@ Check if Postgres Host is running
 $ pg_isready -d odoo18 -h postgres-dev -p 5432 -U odoo_user
 
 Initial run
-$ ./odoo/odoo-bin -i all --addons-path=./odoo/addons/,./extra-addons/openeducat/,./tutorials/ --database=odoo18dev --db_user=odoo_user --db_password=jajnav5@ --dev=all
+$ ./odoo-bin -i all --addons-path=./odoo/addons/,./extra-addons/openeducat/,./tutorials/ --database=odoo18dev --db_user=odoo_user --db_password=jajnav5@ --dev=all
 
 Run Odoo Sourcecode
 ===================
-$ ./odoo/odoo-bin -u all --addons-path=./odoo/addons,./extra-addons/openeducat/,./tutorials/ --database=odoo18dev --db_user=odoo_user --db_password=jajnav5@ --dev=all
+$ ./odoo-bin -u all --addons-path=./odoo/addons,./extra-addons/openeducat/,./tutorials/ --database=odoo18dev --db_user=odoo_user --db_password=jajnav5@ --dev=all
 
 Run Odoo Sourcecode Config
 ============================
-$ ./odoo/odoo-bin -u all -c ./config/odoo-cmd.conf --dev=all
+$ ./odoo-bin -u all -c ./config/odoo-cmd.conf --dev=all
